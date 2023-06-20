@@ -1,0 +1,79 @@
+        /* Table Styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:hover {
+           background-color: #e9ecef;
+        }
+
+        /* Button Styles */
+        form {
+            display: inline-block;
+        }
+
+        input[type=\"submit\"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        input[type=\"submit\"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Background Styles */
+        body {
+            background-color: #e1f1fd;
+        }
+
+        h1{
+           text-align:center;
+           font-size:1.5em; 
+           font-style: oblique;
+        }
+
+        h4{
+           text-align:center;
+           font-size:1.5em; 
+           font-style: oblique;
+        }
+
+        #Sec {
+           background-color: #222;
+           text-align:center;
+           padding: 0.5rem 1rem;
+           border-radius: 4px;
+           color: #eee;
+           text-shadow: 1px 1px #444, 2px 2px #444, 3px 3px #444;
+        }
+
+        .container {
+           display: flex;
+           justify-content: center;
+           align 
+           align-items: center;
+           height: 100vh;
+        }
+
+        .cont {
+           display: flex;
+           justify-content: center;
+           align 
+           align-items: center;
+           height: 35vh;
+        }
